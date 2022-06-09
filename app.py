@@ -50,7 +50,7 @@ def predictor():
     #     'STATE': state
     # }
 
-    options = {
+    characteristics = {
         'BRAND': [brand],
         'CPU BRAND': [cpu_brand],
         'CPU CORE': [cpu_core],
@@ -68,7 +68,7 @@ def predictor():
         'STATE': [state]
     }
 
-    input_query = pd.DataFrame(data=options)
+    input_query = pd.DataFrame(data=characteristics)
     result = model.predict(input_query)[0]
 
     return jsonify(result.round().tolist())
