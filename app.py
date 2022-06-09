@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pickle
-# import numpy as np
 import pandas as pd
+# import numpy as np
 
 model = pickle.load(open('model.pkl', 'rb'))
 
@@ -75,4 +75,4 @@ def predictor():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host="192.168.1.113", port=8000)
+    app.run(debug=True, host="192.168.1.113", port=5111)
