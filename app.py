@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Oops!!!...These errors sucks!!!"
+    return "Hi, I guess this API works!!!"
 
 
 @app.route('/predictor', methods=['POST'])
