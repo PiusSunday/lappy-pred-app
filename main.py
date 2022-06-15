@@ -14,3 +14,9 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# import cv2
+
+# img_0 = cv2.imread('C:\\Users\parad\Pictures\Camera Roll\\lappy-pred-logo.png')
+# cv2.imshow('image', img_0)
+# cv2.waitkey(0)

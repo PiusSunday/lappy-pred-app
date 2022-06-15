@@ -1,3 +1,7 @@
+# Lappy-Pred-App
+
+![](C:\Users\parad\Pictures\Camera Roll\lappy-pred-logo.png)
+
 # Laptop Prices Predictor
 <ul>
   <li>Designed a Flask API that predicts the price a laptop given the configurations. </li>
@@ -29,7 +33,7 @@ After extracting the laptop data from different sources, My dataset now consists
 Link to complete dataset will be seen in the files.
 
 # Feature Engineering
-From the data i sourced from the different sources, I made the following changes and created new variables:
+From the data I sourced from the different sources, I made the following changes and created new variables:
 RAM - Made columns for RAM SIZE in GB, the RAM(DDR) version <br>
 PROCESSOR - Made columns for CPU BRAND, CPU CORE, CPU GENERATION and CPU FAMILY <br>
 STORAGE - Made new columns for the DISK TYPE and the SSD and HDD SIZES <br>
